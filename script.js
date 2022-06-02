@@ -86,6 +86,7 @@ function updateScreen(winner, playerMove, computerMove) {
         result.classList.add('draw')
     } else {
         result.classList.remove('win')
+        result.classList.add('lose')
 
         result.innerText = `You Lose! ${computerMove} beats ${playerMove}`
     }
