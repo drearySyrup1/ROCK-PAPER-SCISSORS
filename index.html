@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/00b7214cf2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <script src="script.js"></script>
+    <div class="tophalf">
+        <div class="scores">
+            <div id="playerscore" class="round">
+                Your Score: 0
+            </div>
+            <div id="round" class="round">
+                Round: 1
+            </div>
+            <div id="computerscore" class="round">
+                Computer Score: 0
+            </div>
+        </div>
+        <div id="result" class="round result">
+            You Win! Rock beats Scissors
+        </div>
+    </div>
+    <div id="btncnt" class="buttons anim">
+        <button name="Scissors"><i class="fa-solid fa-hand-scissors"></i></button>
+        <button name="Rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+        <button name="Paper"><i class="fa-solid fa-hand"></i></button>
+    </div>
 </body>
 </html>
